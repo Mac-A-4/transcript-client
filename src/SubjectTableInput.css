@@ -1,0 +1,25 @@
+div.subject-table-input-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+button.subject-table-input-button {
+	width: 1in;
+}
+
+th.subject-table-input-th {
+	background-color: lightblue;
+	padding: 5px;
+	font-weight: 500;
+}
+
+div.subject-table-input-div-center {
+	display: flex;
+	justify-content: center;
+}
+
+input.subject-table-input-input {
+	width: 2in;
+}

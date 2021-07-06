@@ -1,0 +1,23 @@
+span.table-input-entry-required {
+	font-size: 18px;
+	color: red;
+}
+
+span.table-input-entry-not-required {
+	opacity: 0;
+	font-size: 18px;
+}
+
+span.table-input-entry-label {
+	font-size: 14px;
+	color: inherit;
+}
+
+td.table-input-entry-td {
+	padding: 5px;
+	background-color: lightblue;
+}
+
+input.table-input-entry-input {
+	width: 3in;
+}

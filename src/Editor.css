@@ -1,0 +1,34 @@
+div.editor {
+	width: 100%;
+ 	display: flex;
+ 	justify-content: center;
+}
+
+div.editor-div {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div.editor-group {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border: 1px dashed black;
+	padding: 20px;
+	margin: 10px;
+}
+
+button.editor-save {
+	width: 150px;
+	height: 50px;
+	font-size: 24px;
+	margin-bottom: 2in;
+}
+
+div.instructions-div {
+	width: 1000px;
+	height: auto;
+	text-align: center;
+}

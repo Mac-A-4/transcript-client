@@ -1,0 +1,28 @@
+div.grade-scale-input-entry-div {
+	background-color: lightblue;
+	padding: 10px;
+	margin: 5px;
+}
+
+div.grade-scale-input-div {
+	margin: 10px;
+	padding: 20px;
+	display: flex;
+	/*border: 1px dashed black;*/
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.grade-scale-input-div > caption {
+	padding-bottom: 20px;
+}
+
+span.grade-scale-input-entry-span {
+	width: 30px;
+	display: inline-block;
+}
+
+div.grade-scale-input-check {
+	display: flex;
+	justify-content: center;
+}

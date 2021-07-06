@@ -1,0 +1,18 @@
+div.extra-input-div {
+	margin: 10px;
+	padding: 20px;
+	display: flex;
+	/*border: 1px dashed black;*/
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.extra-input-div > caption {
+	padding-bottom: 20px;
+}
+
+textarea.extra-input-textarea {
+	width: 6in;
+	height: 3in;
+	overflow: scroll;
+}

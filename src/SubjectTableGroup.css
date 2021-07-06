@@ -1,0 +1,8 @@
+div.subject-table-group-div {
+	padding: 10px;
+	display: flex;
+	/*border: 1px dashed black;*/
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
