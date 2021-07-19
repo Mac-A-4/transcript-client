@@ -2,7 +2,7 @@ import React, { Component, useRef, useEffect, useState } from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect, useParams, Link } from 'react-router-dom';
 import Server from './Server.js';
 import './View.css';
-import Logo from './Logo.png';
+import Logo from './Logo.jpg';
 
 function ViewHeadEntry(props) {
 	if (props.value.length == 0) {
@@ -589,7 +589,7 @@ export default function View(props) {
 					</div>
 					<div className="view-head-1-main">
 						<div className="view-head-1-main-1">
-							Rivendell Academy of Fremont
+							{ state.schoolInfo.name }
 						</div>
 						<div className="view-head-1-main-2">
 							Official High School Transcript
