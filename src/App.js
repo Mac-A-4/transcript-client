@@ -2,6 +2,7 @@ import React, { Component, useRef, useEffect, useState } from 'react';
 import './App.css';
 import Editor from './Editor.js';
 import View from './View.js';
+import Intro from './Intro.js';
 import { BrowserRouter as Router, Switch, Route, Redirect, useParams } from 'react-router-dom';
 import axios from 'axios';
 import Server from './Server.js';
@@ -96,7 +97,10 @@ class App extends Component {
       <Router>
         <Switch>
           <Route exact path="/">
-            <Redirect to="/edit"/>
+            <Redirect to="/intro"/>
+          </Route>
+          <Route exact path="/intro">
+            <Intro/>
           </Route>
           <Route exact path="/edit">
             <BlankEditor value={this.editorState} onUpdate={this.forceUpdate.bind(this)}/>
@@ -176,7 +180,7 @@ function SaveOverlay(props) {
               <div className="save-overlay-div-1">
                   <button onClick={()=>{props.onClose();}}>Close</button>
                   &nbsp;&nbsp;Link:&nbsp;&nbsp;&nbsp;
-                  {`http://localhost:3000/edit/${props.value}`}
+                  {`http://rivendelltranscript.com/edit/${props.value}`}
               </div>
           </div>
       );

@@ -249,6 +249,7 @@ function ViewTypeKeyEntry(props) {
 }
 
 function ViewTypeKey(props) {
+	return null;
 	return (
 		<div className="view-type-key-div">
 			<div className="view-type-key-div-1">
@@ -373,7 +374,7 @@ function ViewGraduationRequirements(props) {
 			<thead>
 				<tr className="view-requirements-tr-1">
 					<th colSpan={2}>
-						California State Graduation Requirements
+						Type Key
 					</th>
 					<th className="view-requirements-th-2">
 						Credits Required
@@ -387,19 +388,19 @@ function ViewGraduationRequirements(props) {
 				<tr>
 					<td>
 						<span className="view-requirements-span-1">
-							30
+							HR
 						</span>
 						&nbsp;
 						<span className="view-requirements-span-2">
-							English Language Arts
+							= Honors course. (Weighted +0.50)
 						</span>
 					</td>
 						<span className="view-requirements-span-1">
-							20
+							AP
 						</span>
 						&nbsp;
 						<span className="view-requirements-span-2">
-							Science (Biological & Physical Sciences)
+							= College Board AP. (Weighted +1.00)
 						</span>
 					<td>
 						<span className="view-requirements-span-1">
@@ -415,19 +416,19 @@ function ViewGraduationRequirements(props) {
 				<tr>
 					<td>
 						<span className="view-requirements-span-1">
-							20
+							MS
 						</span>
 						&nbsp;
 						<span className="view-requirements-span-2">
-							Mathematics (Algebra 1)
+							= High school course taken in Middle School.
 						</span>
 					</td>
 						<span className="view-requirements-span-1">
-							10
+							DE
 						</span>
 						&nbsp;
 						<span className="view-requirements-span-2">
-							Foreign Language, Arts, or Career Technical
+							= Dual-enrolled college course. (Weighted +1.00)
 						</span>
 					<td>
 						<span className="view-requirements-span-1">
@@ -443,19 +444,19 @@ function ViewGraduationRequirements(props) {
 				<tr>
 					<td>
 						<span className="view-requirements-span-1">
-							30
+							
 						</span>
 						&nbsp;
 						<span className="view-requirements-span-2">
-							Social Studies (US & World Hist, Am Gov, Econ)
+							
 						</span>
 					</td>
 						<span className="view-requirements-span-1">
-							20
+							
 						</span>
 						&nbsp;
 						<span className="view-requirements-span-2">
-							Physical Education
+							
 						</span>
 					<td>
 						<span className="view-requirements-span-1">
@@ -481,7 +482,7 @@ function ViewExtra(props) {
 		return (
 			<div className="view-extra-div">
 				<div className="view-extra-div-1">
-					Miscellaneous
+					Notes
 				</div>
 				<div className="view-extra-div-2">
 					<pre className="view-extra-pre">
@@ -496,7 +497,6 @@ function ViewExtra(props) {
 function currentDate() {
 	let x = new Date();
 	return x.toLocaleDateString(undefined, {
-		weekday: 'long',
 		year: 'numeric',
 		month: 'long',
 		day: 'numeric'
