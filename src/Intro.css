@@ -58,3 +58,12 @@
 	margin-left: 10%;
 	width: 90%;
 }
+
+.ex4x {
+	margin: 0;
+}
+
+.id4x {
+	display: flex;
+	flex-direction: column;
+}

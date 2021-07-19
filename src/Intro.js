@@ -4,6 +4,7 @@ import './Intro.css';
 import ex1 from './ex1.png';
 import ex2 from './ex2.png';
 import ex3 from './ex3.png';
+import expdf from './expdf.png';
 
 function Intro() {
 	return (
@@ -44,6 +45,19 @@ function Intro() {
 					<div className="intro-div-5">
 						8. To view your transcript, press the 'View' button at the bottom, next to the 'Save' button, be sure to save before viewing.
 					</div>
+					<div className="intro-div-5">
+						9. To print your transcript, press either Ctrl+P on Windows, or Command+P on a Mac.	
+					</div>
+					<div className="intro-div-5">
+						10. To sign your transcript, either print it and sign it physically, or use a program such as Adobe Reader to sign it.
+					</div>
+				</div>
+				<div className="intro-div-4 id4x">
+					<a href="/example.pdf">
+						Example Transcript
+						<br/>
+						<img className="ex-img ex4x" src={expdf}/>
+					</a>
 				</div>
 			</div>
 		</div>
