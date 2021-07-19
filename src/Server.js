@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const SERVER = "localhost:3001";
+const SERVER = "95.217.3.47:8080";
 
 async function save(value, id) {
 	if (id === undefined) {
